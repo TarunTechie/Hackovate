@@ -7,12 +7,21 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-    <Header/>
-    <Link to={'/login'}><h1>LOGIN</h1></Link>
-    <Link to={'/register'}><h1>Rgister</h1></Link>
-    <Link to={'/complains'}><h1>Complains</h1></Link>
-    </>
+    <div>
+      <Header/>
+    <div className="bg-gray-900 min-h-screen flex flex-col items-center p-10 gap-4">
+            <div className="w-full max-w-3xl bg-black p-4 border border-blue-500 flex flex-col gap-2">
+              <input
+                type="text"
+                className="w-full p-2 bg-white text-black border border-gray-400 rounded"
+                placeholder="Enter your prompt here..."
+              />
+          <select className="w-full p-2 bg-white text-black border border-gray-400 rounded">
+            {}
+          </select>
+      </div>    
+      </div>
+      </div>
   )
 }
 

@@ -1,0 +1,46 @@
+,City,state,Building violations,Electricity issues,Garbage collection,Illegal encroachments,Noise pollution,Road pothole complaints,Traffic management,Water supply issues
+0,Anantapur,Andhra Pradesh,Anantapur Urban Dev Authority,APSPDCL (Anantapur),Anantapur SWM Dept,Anantapur Revenue Dept,APPCB (Anantapur),Anantapur Municipal Corp,Anantapur Traffic Police,Anantapur Water Dept
+1,Eluru,Andhra Pradesh,Eluru Urban Dev Authority,APSPDCL (Eluru),Eluru SWM Dept,Eluru Revenue Dept,APPCB (Eluru),Eluru Municipal Corp,Eluru Traffic Police,Eluru Water Dept
+2,Guntur,Andhra Pradesh,GDA (Guntur),APSPDCL (Guntur),Guntur SWM Dept,Guntur Revenue Dept,APPCB (Guntur),Guntur Municipal Corp,Guntur Traffic Police,Guntur Water Supply Dept
+3,Kadapa,Andhra Pradesh,Kadapa Urban Dev Authority,APSPDCL (Kadapa),Kadapa SWM Dept,Kadapa Revenue Dept,APPCB (Kadapa),Kadapa Municipal Corp,Kadapa Traffic Police,Kadapa Water Dept
+4,Kurnool,Andhra Pradesh,Kurnool Urban Dev Authority,APSPDCL (Kurnool),Kurnool SWM Dept,Kurnool Revenue Dept,APPCB (Kurnool),Kurnool Municipal Corp,Kurnool Traffic Police,Kurnool Water Dept
+5,Nellore,Andhra Pradesh,Nellore Urban Dev Authority,APSPDCL (Nellore),Nellore SWM Dept,Nellore Revenue Dept,APPCB (Nellore),Nellore Municipal Corp,Nellore Traffic Police,Nellore Water Dept
+6,Rajahmundry,Andhra Pradesh,RDA (Rajahmundry),APSPDCL (Rajahmundry),Rajahmundry SWM Dept,Rajahmundry Revenue Dept,APPCB (Rajahmundry),Rajahmundry Municipal Corp,Rajahmundry Traffic Police,Rajahmundry Water Supply
+7,Tirupati,Andhra Pradesh,TUDA (Tirupati),APSPDCL (Tirupati),Tirupati SWM Dept,Tirupati Revenue Dept,APPCB (Tirupati),Tirupati Municipal Corp,Tirupati Traffic Police,Tirupati Water Board
+8,Vijayawada,Andhra Pradesh,VGTMUDA (Vijayawada),APSPDCL (Vijayawada),VMC SWM Dept,Vijayawada Revenue Dept,APPCB (Vijayawada),VMC (Vijayawada),Vijayawada Traffic Police,VMC Water Dept
+9,Visakhapatnam,Andhra Pradesh,VUDA (Visakhapatnam),APEPDCL (Visakhapatnam),GVMC SWM Dept,Visakhapatnam Revenue Dept,APPCB (Visakhapatnam),GVMC (Visakhapatnam),Visakhapatnam Traffic Police,GVMC Water Dept
+10,Belagavi,Karnataka,Belagavi Urban Dev Authority,HESCOM,Belagavi SWM,Belagavi Corporation Revenue,KSPCB (Belagavi),Belagavi City Corporation,Belagavi Traffic Police,Belagavi Water Board
+11,Bengaluru,Karnataka,BDA,BESCOM,BBMP Solid Waste Dept,BBMP Revenue Dept,KSPCB,BBMP,Bengaluru Traffic Police,BWSSB
+12,Hubballi-Dharwad,Karnataka,Hubballi-Dharwad Urban Dev Authority,HESCOM,HDMC SWM,HDMC Revenue Dept,KSPCB (Hubballi),HDMC,Hubballi Traffic Police,HDMC Water Supply
+13,Mangaluru,Karnataka,Mangaluru Urban Dev Authority,MESCOM,Mangaluru SWM,Mangaluru Corporation Revenue,KSPCB (Mangaluru),Mangaluru City Corporation,Mangaluru Traffic Police,Mangaluru Water Board
+14,Mysuru,Karnataka,Mysuru Urban Development Authority,CESC Mysuru,Mysuru Corporation SWM,Mysuru Corporation Revenue,KSPCB (Mysuru),Mysuru City Corporation,Mysuru Traffic Police,Vani Vilas Water Works
+15,Alappuzha,Kerala,Alappuzha Urban Dev Authority,KSEB (Alappuzha),Alappuzha SWM Dept,Alappuzha Revenue Dept,KSPCB (Alappuzha),Alappuzha Municipal Corp,Alappuzha Traffic Police,KWA (Alappuzha)
+16,Kannur,Kerala,Kannur Urban Dev Authority,KSEB (Kannur),Kannur SWM Dept,Kannur Revenue Dept,KSPCB (Kannur),Kannur Municipal Corp,Kannur Traffic Police,KWA (Kannur)
+17,Kochi,Kerala,GCDA (Kochi),KSEB (Kochi),Kochi SWM Dept,Kochi Revenue Dept,KSPCB (Kochi),Kochi Municipal Corp,Kochi Traffic Police,KWA (Kochi)
+18,Kollam,Kerala,Kollam Urban Dev Authority,KSEB (Kollam),Kollam SWM Dept,Kollam Revenue Dept,KSPCB (Kollam),Kollam Municipal Corp,Kollam Traffic Police,KWA (Kollam)
+19,Kottayam,Kerala,Kottayam Urban Dev Authority,KSEB (Kottayam),Kottayam SWM Dept,Kottayam Revenue Dept,KSPCB (Kottayam),Kottayam Municipal Corp,Kottayam Traffic Police,KWA (Kottayam)
+20,Kozhikode,Kerala,Kozhikode Urban Dev Authority,KSEB (Kozhikode),Kozhikode SWM Dept,Kozhikode Revenue Dept,KSPCB (Kozhikode),Kozhikode Municipal Corp,Kozhikode Traffic Police,KWA (Kozhikode)
+21,Malappuram,Kerala,Malappuram Urban Dev Authority,KSEB (Malappuram),Malappuram SWM Dept,Malappuram Revenue Dept,KSPCB (Malappuram),Malappuram Municipal Corp,Malappuram Traffic Police,KWA (Malappuram)
+22,Palakkad,Kerala,Palakkad Urban Dev Authority,KSEB (Palakkad),Palakkad SWM Dept,Palakkad Revenue Dept,KSPCB (Palakkad),Palakkad Municipal Corp,Palakkad Traffic Police,KWA (Palakkad)
+23,Thiruvananthapuram,Kerala,TRIDA (Thiruvananthapuram),KSEB (Thiruvananthapuram),Thiruvananthapuram SWM Dept,Thiruvananthapuram Revenue Dept,KSPCB (Thiruvananthapuram),Thiruvananthapuram Municipal Corp,Thiruvananthapuram Traffic Police,KWA (Thiruvananthapuram)
+24,Thrissur,Kerala,Thrissur Urban Dev Authority,KSEB (Thrissur),Thrissur SWM Dept,Thrissur Revenue Dept,KSPCB (Thrissur),Thrissur Municipal Corp,Thrissur Traffic Police,KWA (Thrissur)
+25,Amravati,Maharastra,Amravati Dev Authority,MSEDCL (Amravati),Amravati SWM,Amravati Revenue Dept,MPCB (Amravati),Amravati Municipal Corp,Amravati Traffic Police,Amravati Water Dept
+26,Aurangabad,Maharastra,Aurangabad Development Authority,MSEDCL (Aurangabad),AMC SWM,Aurangabad Revenue Dept,MPCB (Aurangabad),AMC (Aurangabad),Aurangabad Traffic Police,AMC Water Supply
+27,Kolhapur,Maharastra,Kolhapur Urban Dev Authority,MSEDCL (Kolhapur),Kolhapur SWM,Kolhapur Revenue Dept,MPCB (Kolhapur),Kolhapur Municipal Corp,Kolhapur Traffic Police,Kolhapur Water Supply
+28,Latur,Maharastra,Latur Urban Dev Authority,MSEDCL (Latur),Latur SWM,Latur Revenue Dept,MPCB (Latur),Latur Municipal Corp,Latur Traffic Police,Latur Water Dept
+29,Mumbai,Maharastra,BMC Building Proposal Dept,Tata Power / BEST,BMC Solid Waste Dept,BMC Revenue Dept,MPCB (Mumbai),BMC (Mumbai),Mumbai Traffic Police,MCGM Water Dept
+30,Nagpur,Maharastra,NIT (Nagpur),MSEDCL (Nagpur),NMC SWM,NMC Revenue Dept,MPCB (Nagpur),NMC (Nagpur),Nagpur Traffic Police,NMC Water Supply
+31,Nashik,Maharastra,Nashik Development Authority,MSEDCL (Nashik),Nashik SWM,Nashik Revenue Dept,MPCB (Nashik),Nashik Municipal Corporation,Nashik Traffic Police,Nashik Water Board
+32,Pune,Maharastra,Pune Urban Development Authority,MSEDCL (Pune),PMC SWM,PMC Revenue Dept,MPCB (Pune),Pune Municipal Corporation,Pune Traffic Police,PMC Water Dept
+33,Solapur,Maharastra,Solapur Urban Dev Authority,MSEDCL (Solapur),Solapur SWM,Solapur Revenue Dept,MPCB (Solapur),Solapur Municipal Corp,Solapur Traffic Police,Solapur Water Dept
+34,Thane,Maharastra,Thane Development Authority,MSEDCL (Thane),TMC SWM,Thane Revenue Dept,MPCB (Thane),TMC (Thane),Thane Traffic Police,TMC Water Dept
+35,Chennai,Tamil Nadu,CMDA (Chennai),TANGEDCO (Chennai),Chennai SWM Dept,Chennai Revenue Dept,TNPCB (Chennai),Greater Chennai Corporation,Chennai Traffic Police,CMWSSB (Chennai Metro Water)
+36,Coimbatore,Tamil Nadu,Coimbatore Urban Development Authority,TANGEDCO (Coimbatore),Coimbatore SWM Dept,Coimbatore Revenue Dept,TNPCB (Coimbatore),Coimbatore City Municipal Corp,Coimbatore Traffic Police,Coimbatore Water Board
+37,Dindigul,Tamil Nadu,Dindigul Dev Authority,TANGEDCO (Dindigul),Dindigul SWM Dept,Dindigul Revenue Dept,TNPCB (Dindigul),Dindigul Municipal Corp,Dindigul Traffic Police,Dindigul Water Board
+38,Erode,Tamil Nadu,Erode Urban Dev Authority,TANGEDCO (Erode),Erode SWM Dept,Erode Revenue Dept,TNPCB (Erode),Erode Municipal Corp,Erode Traffic Police,Erode Water Dept
+39,Madurai,Tamil Nadu,Madurai Urban Dev Authority,TANGEDCO (Madurai),Madurai SWM Dept,Madurai Revenue Dept,TNPCB (Madurai),Madurai Municipal Corp,Madurai Traffic Police,Madurai Water Supply Dept
+40,Salem,Tamil Nadu,Salem Urban Dev Authority,TANGEDCO (Salem),Salem SWM Dept,Salem Revenue Dept,TNPCB (Salem),Salem Municipal Corp,Salem Traffic Police,Salem Water Dept
+41,Thoothukudi,Tamil Nadu,Thoothukudi Urban Dev Authority,TANGEDCO (Thoothukudi),Thoothukudi SWM Dept,Thoothukudi Revenue Dept,TNPCB (Thoothukudi),Thoothukudi Municipal Corp,Thoothukudi Traffic Police,Thoothukudi Water Supply
+42,Tiruchirappalli,Tamil Nadu,Tiruchirappalli Dev Authority,TANGEDCO (Tiruchirappalli),Tiruchirappalli SWM Dept,Tiruchirappalli Revenue Dept,TNPCB (Tiruchirappalli),Tiruchirappalli City Corp,Tiruchirappalli Traffic Police,Tiruchirappalli Water Supply
+43,Tirunelveli,Tamil Nadu,Tirunelveli Urban Dev Authority,TANGEDCO (Tirunelveli),Tirunelveli SWM Dept,Tirunelveli Revenue Dept,TNPCB (Tirunelveli),Tirunelveli Municipal Corp,Tirunelveli Traffic Police,Tirunelveli Water Dept
+44,Vellore,Tamil Nadu,Vellore Dev Authority,TANGEDCO (Vellore),Vellore SWM Dept,Vellore Revenue Dept,TNPCB (Vellore),Vellore Municipal Corp,Vellore Traffic Police,Vellore Water Board

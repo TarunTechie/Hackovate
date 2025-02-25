@@ -16,7 +16,10 @@ export default function RegisterPage()
     }
     return (
         <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center p-6 justify-center">
-      <Header />
+         <span>
+            <img src="../assets/civic.png" className="w-22 h-22 m-auto"/>
+            <h1 className="text-white text-center font-bold" >Civic Fix</h1>
+          </span>
       <div className="bg-gray-800 p-6 rounded-lg shadow-lg w-full max-w-md">
         <h1 className="text-3xl font-bold my-4 text-center">REGISTER</h1>
         <div className="space-y-4">

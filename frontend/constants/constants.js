@@ -1,4 +1,4 @@
-export const state = ['t']
+export const state = ['Andhra Pradesh','Karnataka','Kerala','Maharastra','Tamil Nadu']
 export const cities = [
     "Anantapur", "Eluru", "Guntur", "Kadapa", "Kurnool", "Nellore", "Rajahmundry", 
     "Tirupati", "Vijayawada", "Visakhapatnam", "Belagavi", "Bengaluru", "Hubballi-Dharwad", 

@@ -11,12 +11,16 @@ export default function LoginPage()
     async function login()
     {
       const results = await api.get('/login', { params: { fields } })
-      localStorage.setItem('user',results.data)
+      localStorage.setItem('user', JSON.stringify(results.data))
+      sessionStorage.setItem('usedid',results.data._id)
       console.log(results.data)
     }
     return (
         <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center p-6 justify-center">
-        <Header />
+        <span>
+            <img src="../assets/civic.png" className="w-22 h-22 m-auto"/>
+            <h1 className="text-white text-center font-bold" >Civic Fix</h1>
+        </span>
         <div className="bg-gray-800 p-6 rounded-lg shadow-lg w-full max-w-md">
           <h1 className="text-3xl font-bold my-4 text-center">LOGIN</h1>
           <div className="space-y-4">
