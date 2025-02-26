@@ -11,8 +11,11 @@ export default function RegisterPage()
     }
     async function register()
     {
-        const user = await api.post('/register',fields,{params:{type:"user"}})
-        console.log(user.data)
+      const user = await api.post('/register', fields, { params: { type: "user" } })
+      if (user.data != null)
+      {
+        alert("registered go back to login page")
+      }
     }
     return (
         <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center p-6 justify-center">

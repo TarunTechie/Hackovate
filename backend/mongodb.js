@@ -55,16 +55,13 @@ async function register(data,type)
 }
 
 async function fileComplain(data)
-{
-    const results = await complains.insertOne({
-        letter: {
-            subject: data.subject,
-            body:data.body
-        },
-        date: Date.now(),
-        userId: data.user,
-        status:data.status
-    })
+{   
+    try {
+        console.log(data)
+        const results = await complains.insertOne(data)
+    } catch (error) {
+        console.error(error)
+    }
 }
 
 module.exports = {register,login,fileComplain}

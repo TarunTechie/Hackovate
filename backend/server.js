@@ -18,5 +18,9 @@ app.get('/login', async(req, res) => {
     res.send(results)
 })
 
+app.post('/file', async (req, res) => {
+    const results = await action.fileComplain(req.body)
+    res.send(results)
+})
 
 app.listen(4000,()=>{console.log("Running on port:4000")})

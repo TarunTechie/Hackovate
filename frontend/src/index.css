@@ -74,7 +74,7 @@ label
     margin: auto;
     align-content: center;
   }
-  .logres
+  .half
   {
-
+    display: flex;
   }

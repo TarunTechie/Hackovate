@@ -1,9 +1,11 @@
 import Header from "../components/header";
 import { useState } from "react";
 import { api } from "../constants/api";
+import { useNavigate ,Link} from "react-router-dom";
 export default function LoginPage()
 {
-    const [fields, setFields] = useState()
+  const [fields, setFields] = useState()
+  const nav=useNavigate()
     function handleChanges(event)
     {
         setFields(()=>({...fields,[event.target.id]:event.target.value}))
@@ -11,9 +13,10 @@ export default function LoginPage()
     async function login()
     {
       const results = await api.get('/login', { params: { fields } })
-      localStorage.setItem('user', JSON.stringify(results.data))
       sessionStorage.setItem('usedid',results.data._id)
-      console.log(results.data)
+      sessionStorage.setItem('name', results.data.name)
+      sessionStorage.setItem('address',results.data.address.street)
+      nav('/home')
     }
     return (
         <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center p-6 justify-center">
@@ -49,6 +52,7 @@ export default function LoginPage()
             className="mt-6 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded-lg shadow-md transition-all duration-300 w-full">
             LOGIN
           </button>
+          <Link to={'/register'}>New here Register</Link>
         </div>
       </div>
     )

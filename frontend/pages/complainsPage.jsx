@@ -1,53 +1,69 @@
 import { useEffect, useState } from "react"
+import axios from "axios"
+import { api } from "../constants/api";
 
 export default function ComplainsPage()
 {
-    const [login,setlogin]=useState(false)
-    useEffect(() => {
-        const id=sessionStorage.getItem('userid')
-        if (id!=null){setlogin(true)}
+  const [complaintData, setcomplaintData] = useState()
+  const [loading,setLoaing]=useState(true)
+  function getData()
+  {
+    setcomplaintData(JSON.parse(localStorage.getItem('complain')))
+    setLoaing(false)
+  }
+
+  async function fileComplain()
+  {
+    const results = api.post('/file', Object.assign({}, complaintData, { userid: sessionStorage.getItem("usedid") }))
+    console.log(results)
+  }
+  async function handleDownload()
+  {
+    try {
+      const response = await axios.get(`http://127.0.0.1:5000/api/download_pdf?filename=${complaintData.pdf_path}`, {
+        responseType: "blob", 
+      });
+
+      const blob = new Blob([response.data], { type: "application/pdf" });
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = complaintData.pdf_path; 
+      document.body.appendChild(link);
+      link.click(); 
+      document.body.removeChild(link); 
+    } catch (error) {
+      console.error("Error downloading PDF:", error);
+    }
+  }
+  useEffect(() => {
+      getData()
     },[])
     return (
-        login ? <div>
-            LOGIN TO ACCESS
-        </div> :
-            <div className="bg-gray-900 min-h-screen flex flex-col items-center p-4 gap-4">
-            <div className="w-full max-w-3xl bg-black p-4 border border-blue-500 flex flex-col gap-2">
-              <input
-                type="text"
-                className="w-full p-2 bg-white text-black border border-gray-400 rounded"
-                placeholder="Enter your prompt here..."
-              />
-              <select className="w-full p-2 bg-white text-black border border-gray-400 rounded">
-                <option value="option1">Option 1</option>
-                <option value="option2">Option 2</option>
-                <option value="option3">Option 3</option>
-              </select>
-            </div>
-            <div className="w-full max-w-3xl bg-black p-4 border border-blue-500 flex flex-col gap-2">
-              <div className="flex justify-between">
-                <textarea
-                  className="w-1/3 h-16 p-2 bg-green-200 text-black font-bold"
-                  placeholder="From"
-                />
-                <textarea
-                  className="w-1/3 h-8 p-2 bg-green-200 text-black font-bold"
-                  placeholder="Date"
-                />
-              </div>
-              <textarea
-                className="w-1/3 h-16 p-2 bg-green-200 text-black font-bold"
-                placeholder="To"
-              />
-              <textarea
-                className="w-full h-10 p-2 bg-green-200 text-black font-bold"
-                placeholder="Subject"
-              />
-              <textarea
-                className="w-full flex-grow p-2 bg-green-200 text-black font-bold"
-                placeholder="Body"
-              />
-            </div>
-          </div>
+      loading ? <div>
+        getting your compaint read
+</div>:(      <div className="max-w-3xl mx-auto p-6 bg-white shadow-lg rounded-lg">
+      <h2 className="text-2xl font-bold mb-4">Complaint Letter</h2>
+
+      <p className="text-gray-600 mb-2">{complaintData.date}</p>
+
+      <div className="mb-4">
+        <p className="font-semibold">{complaintData.from}</p>
+        <p className="font-semibold mt-2">{complaintData.to}</p>
+      </div>
+
+      <h3 className="text-lg font-bold mb-2">{complaintData.subject}</h3>
+
+      <p className="text-gray-700 whitespace-pre-line mb-4">{complaintData.body}</p>
+      <span className="half">
+      <button
+        onClick={handleDownload}
+        
+        className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 mr-auto"
+        >
+        Download PDF
+          </button>
+          <button className="button" onClick={()=>{fileComplain()}}> File Complain</button>
+        </span>
+    </div>)
     )
 }

@@ -10,11 +10,11 @@ import ComplainsPage from "../pages/complainsPage.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
-    element:<App/>
+    element:<LoginPage/>
   },
   {
-    path: "/login",
-    element:<LoginPage/>
+    path: "/home",
+    element:<App/>
   },
   {
     path: "/register",

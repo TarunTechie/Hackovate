@@ -4,8 +4,10 @@ from reportlab.lib.pagesizes import letter  # For PDF page formatting
 from reportlab.pdfgen import canvas  # To generate the PDF
 from datetime import datetime
 import os
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 PDF_FOLDER = os.path.join(os.getcwd(), "complain_letter")  # Uses current directory
 os.makedirs(PDF_FOLDER, exist_ok=True)
@@ -15,7 +17,7 @@ os.makedirs(PDF_FOLDER, exist_ok=True)
 def handle_request():
     data = request.get_json()
     
-
+    print("vandhutha da")
     user_request = data.get('user_request')
     city = data.get('city')
     state = data.get('state')
